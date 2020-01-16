@@ -4,7 +4,7 @@ FROM ${BASE}
 LABEL maintainer="pfidr"
 
 ARG RCLONE_VERSION=current
-ARG ARCH=amd64
+ARG ARCH=arm
 ENV SYNC_SRC=
 ENV SYNC_DEST=
 ENV SYNC_OPTS=-v
